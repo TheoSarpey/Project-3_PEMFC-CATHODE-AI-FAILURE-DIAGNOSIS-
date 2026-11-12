@@ -1,0 +1,6 @@
+,mean,std
+sent: majority,0.149,0.019
+sent: lexicon rule,0.839,0.089
+sent: TF-IDF+lexicon LR,0.922,0.035
+aspect: TF-IDF LR,0.497,0.078
+aspect: chance (1/6),0.167,0.0
