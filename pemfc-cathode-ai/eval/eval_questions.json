@@ -1,0 +1,340 @@
+[
+ {
+  "id": "Q01",
+  "question": "Why does the cathode cause most of the activation loss in a PEM fuel cell?",
+  "answerable": true,
+  "gold_docs": [
+   "K01"
+  ],
+  "category": "kinetics"
+ },
+ {
+  "id": "Q02",
+  "question": "What does a Tafel slope tell me about oxygen reduction on platinum?",
+  "answerable": true,
+  "gold_docs": [
+   "K01"
+  ],
+  "category": "kinetics"
+ },
+ {
+  "id": "Q03",
+  "question": "What are the risks of switching from Pt/C to a PtCo alloy cathode?",
+  "answerable": true,
+  "gold_docs": [
+   "K03"
+  ],
+  "category": "catalyst"
+ },
+ {
+  "id": "Q04",
+  "question": "Why are Fe-N-C cathodes prone to flooding and early mass-transport limits?",
+  "answerable": true,
+  "gold_docs": [
+   "K05"
+  ],
+  "category": "catalyst"
+ },
+ {
+  "id": "Q05",
+  "question": "What happens to the catalyst layer when carbon support corrodes during start-stop?",
+  "answerable": true,
+  "gold_docs": [
+   "K06"
+  ],
+  "category": "durability"
+ },
+ {
+  "id": "Q06",
+  "question": "Which processes reduce platinum surface area over time?",
+  "answerable": true,
+  "gold_docs": [
+   "K07"
+  ],
+  "category": "durability"
+ },
+ {
+  "id": "Q07",
+  "question": "How does too much Nafion in the catalyst layer hurt performance?",
+  "answerable": true,
+  "gold_docs": [
+   "K08"
+  ],
+  "category": "catalyst-layer"
+ },
+ {
+  "id": "Q08",
+  "question": "How can I tell flooding from membrane dehydration?",
+  "answerable": true,
+  "gold_docs": [
+   "K09"
+  ],
+  "category": "water"
+ },
+ {
+  "id": "Q09",
+  "question": "Does raising backpressure always improve cathode performance?",
+  "answerable": true,
+  "gold_docs": [
+   "K10"
+  ],
+  "category": "operating"
+ },
+ {
+  "id": "Q10",
+  "question": "What does over-compressing the gas diffusion layer do?",
+  "answerable": true,
+  "gold_docs": [
+   "K12"
+  ],
+  "category": "ohmic"
+ },
+ {
+  "id": "Q11",
+  "question": "My open-circuit voltage is low. What should I check?",
+  "answerable": true,
+  "gold_docs": [
+   "K13",
+   "K24"
+  ],
+  "category": "diagnosis"
+ },
+ {
+  "id": "Q12",
+  "question": "What are the three zones of a polarisation curve?",
+  "answerable": true,
+  "gold_docs": [
+   "K14"
+  ],
+  "category": "diagnosis"
+ },
+ {
+  "id": "Q13",
+  "question": "What does the high-frequency intercept of a Nyquist plot mean?",
+  "answerable": true,
+  "gold_docs": [
+   "K15"
+  ],
+  "category": "diagnosis"
+ },
+ {
+  "id": "Q14",
+  "question": "Why do new MEAs need an activation procedure?",
+  "answerable": true,
+  "gold_docs": [
+   "K16"
+  ],
+  "category": "protocol"
+ },
+ {
+  "id": "Q15",
+  "question": "Which contaminants poison the cathode and are they reversible?",
+  "answerable": true,
+  "gold_docs": [
+   "K17"
+  ],
+  "category": "durability"
+ },
+ {
+  "id": "Q16",
+  "question": "Why might flooding conclusions from an oxygen test not hold in air?",
+  "answerable": true,
+  "gold_docs": [
+   "K18",
+   "K26"
+  ],
+  "category": "operating"
+ },
+ {
+  "id": "Q17",
+  "question": "How do I measure ECSA of a Pt electrode?",
+  "answerable": true,
+  "gold_docs": [
+   "K23"
+  ],
+  "category": "metrics"
+ },
+ {
+  "id": "Q18",
+  "question": "Which catalyst compositions are included in the ECSIM dataset?",
+  "answerable": true,
+  "gold_docs": [
+   "K25",
+   "K26"
+  ],
+  "category": "dataset"
+ },
+ {
+  "id": "Q19",
+  "question": "Why does lowering Pt loading increase oxygen transport resistance?",
+  "answerable": true,
+  "gold_docs": [
+   "K29",
+   "K02"
+  ],
+  "category": "catalyst-layer"
+ },
+ {
+  "id": "Q20",
+  "question": "What can the ECSIM dataset not tell me about catalyst chemistry?",
+  "answerable": true,
+  "gold_docs": [
+   "K26"
+  ],
+  "category": "dataset"
+ },
+ {
+  "id": "Q21",
+  "question": "A cell loses voltage slowly over hours and does not recover after a purge. What is likely?",
+  "answerable": true,
+  "gold_docs": [
+   "K28",
+   "K07"
+  ],
+  "category": "diagnosis"
+ },
+ {
+  "id": "Q22",
+  "question": "Is it safe to change test-stand pressure limits because a tool suggested it?",
+  "answerable": true,
+  "gold_docs": [
+   "K27"
+  ],
+  "category": "scope"
+ },
+ {
+  "id": "Q23",
+  "question": "What is the stack lifetime of the Toyota Mirai fuel cell in kilometres?",
+  "answerable": false,
+  "gold_docs": [],
+  "category": "out-of-scope"
+ },
+ {
+  "id": "Q24",
+  "question": "What activation energy for ORR did the ECSIM authors report for their Pt/C electrodes?",
+  "answerable": false,
+  "gold_docs": [],
+  "category": "out-of-scope"
+ },
+ {
+  "id": "Q25",
+  "question": "Who won the football world cup in 2018?",
+  "answerable": false,
+  "gold_docs": [],
+  "category": "out-of-scope"
+ },
+ {
+  "id": "Q26",
+  "question": "What is the exact price per gram of platinum today?",
+  "answerable": false,
+  "gold_docs": [],
+  "category": "out-of-scope"
+ },
+ {
+  "id": "Q27",
+  "question": "How is the ORR limiting potential obtained from DFT adsorption energies?",
+  "answerable": true,
+  "gold_docs": [
+   "K32",
+   "K31"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q28",
+  "question": "Why do the OOH and OH adsorption energies limit how good a catalyst can be?",
+  "answerable": true,
+  "gold_docs": [
+   "K34"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q29",
+  "question": "What does it mean that Pt(111) binds oxygen intermediates slightly too strongly?",
+  "answerable": true,
+  "gold_docs": [
+   "K35"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q30",
+  "question": "When can the d-band centre be used to screen alloys, and when not?",
+  "answerable": true,
+  "gold_docs": [
+   "K36"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q31",
+  "question": "How do strain and a Pt skin change adsorption on Pt alloys?",
+  "answerable": true,
+  "gold_docs": [
+   "K37"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q32",
+  "question": "Why should a Pt(111) calculation accompany every new alloy calculation?",
+  "answerable": true,
+  "gold_docs": [
+   "K38",
+   "K33"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q33",
+  "question": "Why can an active Pt-Ni candidate still be a poor choice?",
+  "answerable": true,
+  "gold_docs": [
+   "K40",
+   "K41"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q34",
+  "question": "How should DFT results be separated from machine-learning predictions in a catalyst table?",
+  "answerable": true,
+  "gold_docs": [
+   "K44"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q35",
+  "question": "Which DFT calculation should I run next for a promising Pt alloy?",
+  "answerable": true,
+  "gold_docs": [
+   "K46"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q36",
+  "question": "How reliable is a machine-learned potential for adsorption energies compared with DFT?",
+  "answerable": true,
+  "gold_docs": [
+   "K42"
+  ],
+  "category": "dft"
+ },
+ {
+  "id": "Q37",
+  "question": "What is the DFT-calculated OH adsorption energy of Pt3Ni(111) in database entry 12345?",
+  "answerable": false,
+  "gold_docs": [],
+  "category": "out-of-scope"
+ },
+ {
+  "id": "Q38",
+  "question": "Which Pt-Co composition should Toyota use in its next stack?",
+  "answerable": false,
+  "gold_docs": [],
+  "category": "out-of-scope"
+ }
+]

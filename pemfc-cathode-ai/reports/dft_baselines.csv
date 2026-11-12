@@ -1,0 +1,5 @@
+method,needs_DFT_for_candidate,spearman,top10pct_recall
+strain heuristic (compressive = better),False,-0.662628112452556,0.0
+electronegativity vs Pt (closer = better),False,0.5945382140196771,0.09090909090909091
+d-band centre (lower = better),True,0.2556423306423306,0.36363636363636365
+ORACLE: volcano from the DFT dG_OH (needs DFT),True,0.8418129168129168,0.18181818181818182

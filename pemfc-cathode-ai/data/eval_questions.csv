@@ -1,0 +1,39 @@
+id,question,answerable,gold_docs,category
+Q01,Why does the cathode cause most of the activation loss in a PEM fuel cell?,True,K01,kinetics
+Q02,What does a Tafel slope tell me about oxygen reduction on platinum?,True,K01,kinetics
+Q03,What are the risks of switching from Pt/C to a PtCo alloy cathode?,True,K03,catalyst
+Q04,Why are Fe-N-C cathodes prone to flooding and early mass-transport limits?,True,K05,catalyst
+Q05,What happens to the catalyst layer when carbon support corrodes during start-stop?,True,K06,durability
+Q06,Which processes reduce platinum surface area over time?,True,K07,durability
+Q07,How does too much Nafion in the catalyst layer hurt performance?,True,K08,catalyst-layer
+Q08,How can I tell flooding from membrane dehydration?,True,K09,water
+Q09,Does raising backpressure always improve cathode performance?,True,K10,operating
+Q10,What does over-compressing the gas diffusion layer do?,True,K12,ohmic
+Q11,My open-circuit voltage is low. What should I check?,True,"K13,K24",diagnosis
+Q12,What are the three zones of a polarisation curve?,True,K14,diagnosis
+Q13,What does the high-frequency intercept of a Nyquist plot mean?,True,K15,diagnosis
+Q14,Why do new MEAs need an activation procedure?,True,K16,protocol
+Q15,Which contaminants poison the cathode and are they reversible?,True,K17,durability
+Q16,Why might flooding conclusions from an oxygen test not hold in air?,True,"K18,K26",operating
+Q17,How do I measure ECSA of a Pt electrode?,True,K23,metrics
+Q18,Which catalyst compositions are included in the ECSIM dataset?,True,"K25,K26",dataset
+Q19,Why does lowering Pt loading increase oxygen transport resistance?,True,"K29,K02",catalyst-layer
+Q20,What can the ECSIM dataset not tell me about catalyst chemistry?,True,K26,dataset
+Q21,A cell loses voltage slowly over hours and does not recover after a purge. What is likely?,True,"K28,K07",diagnosis
+Q22,Is it safe to change test-stand pressure limits because a tool suggested it?,True,K27,scope
+Q23,What is the stack lifetime of the Toyota Mirai fuel cell in kilometres?,False,,out-of-scope
+Q24,What activation energy for ORR did the ECSIM authors report for their Pt/C electrodes?,False,,out-of-scope
+Q25,Who won the football world cup in 2018?,False,,out-of-scope
+Q26,What is the exact price per gram of platinum today?,False,,out-of-scope
+Q27,How is the ORR limiting potential obtained from DFT adsorption energies?,True,"K32,K31",dft
+Q28,Why do the OOH and OH adsorption energies limit how good a catalyst can be?,True,K34,dft
+Q29,What does it mean that Pt(111) binds oxygen intermediates slightly too strongly?,True,K35,dft
+Q30,"When can the d-band centre be used to screen alloys, and when not?",True,K36,dft
+Q31,How do strain and a Pt skin change adsorption on Pt alloys?,True,K37,dft
+Q32,Why should a Pt(111) calculation accompany every new alloy calculation?,True,"K38,K33",dft
+Q33,Why can an active Pt-Ni candidate still be a poor choice?,True,"K40,K41",dft
+Q34,How should DFT results be separated from machine-learning predictions in a catalyst table?,True,K44,dft
+Q35,Which DFT calculation should I run next for a promising Pt alloy?,True,K46,dft
+Q36,How reliable is a machine-learned potential for adsorption energies compared with DFT?,True,K42,dft
+Q37,What is the DFT-calculated OH adsorption energy of Pt3Ni(111) in database entry 12345?,False,,out-of-scope
+Q38,Which Pt-Co composition should Toyota use in its next stack?,False,,out-of-scope

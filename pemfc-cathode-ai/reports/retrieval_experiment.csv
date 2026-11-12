@@ -1,0 +1,13 @@
+retriever,chunking,k,hit@k,MRR
+bm25,whole note,2,0.875,0.8697916666666666
+bm25,whole note,4,0.96875,0.8697916666666666
+bm25,40 words,2,0.78125,0.8299851190476191
+bm25,40 words,4,0.96875,0.8299851190476191
+dense-lsa,whole note,2,0.875,0.865625
+dense-lsa,whole note,4,0.9375,0.865625
+dense-lsa,40 words,2,0.90625,0.8802083333333334
+dense-lsa,40 words,4,0.90625,0.8802083333333334
+hybrid(bm25+dense-lsa),whole note,2,0.8125,0.859375
+hybrid(bm25+dense-lsa),whole note,4,0.96875,0.859375
+hybrid(bm25+dense-lsa),40 words,2,0.90625,0.8760416666666666
+hybrid(bm25+dense-lsa),40 words,4,0.9375,0.8760416666666666
